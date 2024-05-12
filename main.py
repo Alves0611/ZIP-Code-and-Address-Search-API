@@ -28,3 +28,9 @@ print(request)
 
 request_dic = request.json()
 print(request_dic)
+
+
+import pandas as pd
+
+table = pd.DataFrame(request_dic)
+display(table)
